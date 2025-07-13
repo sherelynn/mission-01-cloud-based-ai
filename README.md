@@ -1,19 +1,45 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/H4MQpntH)
-# Mission 1 Readme
+# Mission 1 - Turners Car Insurance AI Solution
 
-Replace me with an introduction to the project.
+A cloud-based web application prototype that uses AI to identify vehicle types from uploaded photos for Turners Car Insurance premium calculations.
+
+## Project Overview
+
+This project demonstrates an AI-powered solution for Turners Car Auctions' motor vehicle insurance system redesign. The application allows users to upload car photos and automatically identifies vehicle types (sedan, SUV, truck, sports car, etc.) using Azure Computer Vision services.
 
 ## Installation
 
-Replace me with the package manager you are using.
-
-Explaining how to install the project.
+Navigate to the project directory and install dependencies:
 
 ```bash
+cd turners-car-insurance
 npm install
-npm start
 ```
 
-## More Details
+Set up your Azure Computer Vision API credentials in a `.env` file:
 
-Replace me with more details about the project.
+```
+VITE_AZURE_COMPUTER_VISION_ENDPOINT=your_azure_endpoint
+VITE_AZURE_COMPUTER_VISION_KEY=your_azure_key
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Technology Stack
+
+- **Frontend**: React 19 with Vite
+- **AI Service**: Azure Computer Vision API
+- **Key Libraries**: Axios, React Dropzone
+- **Styling**: Modern CSS with responsive design
+
+## Features
+
+- Drag-and-drop photo upload interface
+- Real-time AI vehicle type identification
+- Clean, user-friendly design
+- Integration with Azure cognitive services
+
+This project fulfills the requirements for Mission Ready's Mission 1 individual assignment.
